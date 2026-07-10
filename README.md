@@ -30,16 +30,11 @@ The Arbitrary Precision Calculator is a C-based application that performs arithm
 
 ```
 ARBITRARY_PRECISION_CALCULATOR
-
-├── main.c
-├── add.c
-├── subtract.c
-├── multiply.c
-├── divide.c
-├── list.c
-├── *.h
+├── Source Files (*.c)
+├── Header Files (*.h)
 ├── Makefile
-└── README.md
+├── README.md
+└── screenshots/
 ```
 
 > **Note:** File names may vary slightly depending on your implementation.
@@ -49,7 +44,7 @@ ARBITRARY_PRECISION_CALCULATOR
 
 The following screenshot demonstrates arithmetic operations on large integers using the Arbitrary Precision Calculator.
 
-![Sample Output](screenshots/sample_output.png)
+![Sample Output](screenshots/apc_demo.png)
 
 ## ▶️ How to Compile
 
@@ -59,23 +54,32 @@ make
 
 ## ▶️ How to Run
 
+Execute the program by passing two operands and an arithmetic operator as command-line arguments.
+
 ```bash
-./apc <operand1> <operator> <operand2>
+./a.out <operand1> <operator> <operand2>
 ```
 
-> *(Replace `apc` with your executable name if it's different.)*
+### Supported Operators
 
-## 📷 Sample Input
+- `+` Addition
+- `-` Subtraction
+- `x` Multiplication
+- `/` Division
+
+## 📷 Sample Usage
+
+```bash
+./a.out 987654321987654321987654321 + 123456789123456789123456789
+```
+
+## 📷 Example Result
 
 ```
-Enter first number: 987654321987654321987654321
-Enter second number: 123456789123456789123456789
-Choose operation: +
-```
+Operand1 : 987654321987654321987654321
+Operator : +
+Operand2 : 123456789123456789123456789
 
-## 📷 Sample Output
-
-```
 Result:
 1111111111111111111111111110
 ```
