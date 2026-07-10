@@ -30,6 +30,7 @@ The Arbitrary Precision Calculator is a C-based application that performs arithm
 
 ```
 ARBITRARY_PRECISION_CALCULATOR
+
 ├── main.c
 ├── add.c
 ├── subtract.c
@@ -42,6 +43,13 @@ ARBITRARY_PRECISION_CALCULATOR
 ```
 
 > **Note:** File names may vary slightly depending on your implementation.
+
+
+## 📷 Sample Output
+
+The following screenshot demonstrates arithmetic operations on large integers using the Arbitrary Precision Calculator.
+
+![Sample Output](screenshots/sample_output.png)
 
 ## ▶️ How to Compile
 

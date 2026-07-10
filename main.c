@@ -25,9 +25,9 @@ int main(int argc, char *argv[])
         return FAILURE;
     }
 
-    // printf("Operand1 : %s\n", argv[1]);
-    // printf("Operator : %s\n", argv[2]);
-    // printf("Operand2 : %s\n", argv[3]);
+    printf("Operand1 : %s\n", argv[1]);
+    printf("Operator : %s\n", argv[2]);
+    printf("Operand2 : %s\n", argv[3]);
 
     /* initializing signs */
     char sign1 = '+';
