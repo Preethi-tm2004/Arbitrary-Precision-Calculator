@@ -60,7 +60,7 @@ make
 ## ▶️ How to Run
 
 ```bash
-./apc
+./apc <operand1> <operator> <operand2>
 ```
 
 > *(Replace `apc` with your executable name if it's different.)*
