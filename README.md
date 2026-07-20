@@ -37,9 +37,6 @@ ARBITRARY_PRECISION_CALCULATOR
 └── screenshots/
 ```
 
-> **Note:** File names may vary slightly depending on your implementation.
-
-
 ## 📷 Sample Output
 
 The following screenshot demonstrates arithmetic operations on large integers using the Arbitrary Precision Calculator.
